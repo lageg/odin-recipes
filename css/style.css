@@ -1,5 +1,12 @@
+html {
+    min-height: 100vh;
+}
+
 body {
+    background: linear-gradient(127deg,rgb(19, 1, 61), rgb(74, 40, 155));
+    /* original bg-color
     background-color: rgb(19, 1, 61);
+    */
     color: antiquewhite;
     font-size: 22;
 }
