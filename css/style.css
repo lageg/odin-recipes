@@ -4,30 +4,18 @@ body {
     font-size: 22;
 }
 
-.header-image-box {
+.header-box {
     display: flex;
     background-color: rgb(112, 107, 124);
     width: 800px;
     height: 300px;
     padding: 10px;
     
-    
-    
 }
 
 .recipe-box {
     display:flex;
     width: 820px;
-}
-
-.ingredients-box {
-    flex: 35%;
-    background-color: rgb(47, 10, 134);
-    background-size: contain;
-    width: 320px; /* original size 320 */
-    height: 550px;
-    
-    
 }
 
 .recipe-text-divider {
@@ -37,11 +25,27 @@ body {
 
 }
 
+.ingredients-box {
+    flex: 35%;
+    background-color: rgb(47, 10, 134);
+    background-size: contain;
+    height: fit-content;
+    
+    
+}
+
 .instruction-box {
     flex: 65%;
     background-color: rgb(79, 72, 95);
 }
 
+img {
+    height: 300px;
+    width: 270px;
+    object-fit: fill;
+
+    
+}
 
 h1 {
     font-size: 50px;
@@ -50,14 +54,15 @@ h1 {
 h2 {
     flex: 60%;
     margin: 50px;
-    width: 400px;
-    height: 70px;
-    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 24px;
     border-style:double;
     border-color:black;
-    padding-left: 28px;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
 }
 
 h3 {
@@ -77,4 +82,8 @@ ol {
 li {
     font-size: 20px;
     padding-bottom: 10px;
+}
+
+p {
+    padding-left: 20px;
 }
